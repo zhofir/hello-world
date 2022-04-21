@@ -1,14 +1,21 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
   margin: 0;
   /* background-color: #f0f0f0; */
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-image: url(src/bg.jpg);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
 }
+
 .side {
   /* height: 100%; */
   width: 25%;
@@ -18,10 +25,12 @@ body {
   background-color: #fff;
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
+
 .side img {
   width: 100%;
   height: auto;
 }
+
 .side h1 {
   text-align: right;
   background-color: black;
@@ -30,6 +39,7 @@ body {
   margin-top: -1.5em;
   font-size: x-large;
 }
+
 .side span {
   /* color: #000; */
   font-weight: 750;
@@ -60,6 +70,7 @@ body {
 .side .edu {
   padding: 5px 0;
 }
+
 .edu .title {
   font-size: medium;
   font-weight: 500;
@@ -74,8 +85,9 @@ body {
   color: #616161;
   margin: 0 0 0 1%;
 }
+
 .edu i {
-padding: 0 1em 0 0;
+  padding: 0 1em 0 0;
 }
 
 .edu .content {
@@ -107,6 +119,7 @@ main {
   font-size: 25px;
   color: #0080ff;
 }
+
 .container i span {
   padding: 0 1em;
   font-size: 25px;
@@ -119,20 +132,24 @@ main {
   font-weight: 500;
   color: #3c3c3c;
 }
+
 .container .date {
   font-size: small;
   font-weight: 650;
   color: #616161;
   padding: 5px 0;
 }
+
 .container .date i {
   padding: 0 1em 0 0;
   font-size: small;
   color: #0080ff;
 }
+
 .container .content {
   font-size: 15px;
 }
+
 .container .title a:link,
 a:visited {
   border-radius: 3.5px;
@@ -152,6 +169,7 @@ a:active {
   background-color: #0066ff;
   color: #fff;
 }
+
 .container h4 {
   font-size: small;
   color: #616161;
@@ -164,20 +182,24 @@ a:active {
   padding: 1em;
   margin: 0 0 1em 40%;
 }
+
 .container2 i {
   font-size: 25px;
   color: #0080ff;
 }
+
 .container2 i span {
   padding: 0 1em;
   font-size: 25px;
   font-weight: 750;
   color: #3c3c3c;
 }
+
 .container2 h4 {
   font-size: small;
   color: #616161;
 }
+
 .skill {
   width: 100%;
   background-color: #ddd;
@@ -189,29 +211,55 @@ a:active {
   padding: 2.5px;
   color: white;
 }
-.html {
-  width: 50%;
-  background-color: #ff6600;
-}
-.css {
-  width: 45%;
+
+.satu {
+  width: 95%;
   background-color: #0080ff;
 }
-.php {
-  width: 40%;
-  background-color: #787cb5;
-}
-.js {
-  width: 35%;
-  background-color: #f0db4f;
-}
-.dart {
-  width: 30%;
+
+.dua {
+  width: 90%;
   background-color: #0066ff;
 }
-.kotlin {
-  width: 25%;
-  background-color: #cc00ff;
+
+.tiga {
+  width: 85%;
+  background-color: #0080ff;
+}
+
+.empat {
+  width: 80%;
+  background-color: #0066ff;
+}
+
+.lima {
+  width: 75%;
+  background-color: #0080ff;
+}
+
+.enam {
+  width: 70%;
+  background-color: #0066ff;
+}
+
+.tujuh {
+  width: 65%;
+  background-color: #0080ff;
+}
+
+.delapan {
+  width: 60%;
+  background-color: #0066ff;
+}
+
+.sembilan {
+  width: 55%;
+  background-color: #0080ff;
+}
+
+.sepuluh {
+  width: 50%;
+  background-color: #0066ff;
 }
 
 /* <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><> */
@@ -220,19 +268,20 @@ footer {
   width: 100%;
   height: auto;
   text-align: center;
-  background-color: #fff;
+  color: #fff;
+  background-color: #0080ff;
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
+
 footer h4 {
-  color: #616161;
   padding: 1em 0 0 0;
 }
 
-.icon{
-  background-color: #0080ff;
+.icon {
+  background-color: #0066ff;
 }
 
-.icon i{
+.icon i {
   color: #fff;
   padding: 0 1em;
   font-size: medium;
